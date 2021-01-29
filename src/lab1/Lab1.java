@@ -17,7 +17,7 @@ public class Lab1 {
             double b = scan.nextDouble();
             double y;
 
-            if (x > 4) {
+            if (x <= 4) {
                 y = (Math.pow(a, 2) / Math.pow(x, 2)) + (6 * x);
             } else {
                 y = Math.pow(b, 2) * Math.pow(4 + x, 2);
